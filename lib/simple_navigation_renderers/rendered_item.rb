@@ -94,7 +94,7 @@ module SimpleNavigationRenderers
       end
 
       def caret
-        content_tag(:b, '', class: "caret")
+        ""
       end
 
       def dropdown_submenu_link
